@@ -9,9 +9,6 @@ import { products } from '../products';
 })
 export class ProductListComponent {
   products = products;
-  recorded() {
-    window.alert('The Product has been recorded!');
-  }
   share() {
     window.alert('The product has been shared!');
   }
